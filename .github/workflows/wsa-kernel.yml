@@ -53,7 +53,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           repository: Artimus5151/WSA-Linux-Kernel
-          ref: android-lts/latte-2/${{ inputs.version }}
+      
           path: WSA-Linux-Kernel
 
       - name: Setup Ccache
